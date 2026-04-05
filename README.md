@@ -152,7 +152,7 @@ data/
 ## How to Use
 1. Explore raw data in `/data/raw`  
 2. Review cleaned datasets in `/data/processed` (Excel format used in Power BI)  
-3. Open the `.pbix` file using Power BI Desktop  
+3. Open the `clinical-trial-dashboard.pbix` file using Power BI Desktop  
 4. Interact with dashboards using filters and slicers  
 
 Tip: Use filters (site, country, date) to drill down into performance metrics.

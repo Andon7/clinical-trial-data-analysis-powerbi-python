@@ -1,13 +1,13 @@
-# 🧬 Clinical Trial Data Analysis & Dashboard (Python + Power BI)
+# Clinical Trial Data Analysis & Dashboard (Python + Power BI)
 
-## 📌 Project Overview
+## Project Overview
 This project presents an end-to-end data analytics solution for monitoring a Phase II clinical trial. It combines **data cleaning in Python** with **interactive dashboards in Power BI** to track study performance, safety, and data quality.
 
 The goal was to transform raw clinical data into structured datasets and deliver actionable insights for stakeholders to support timely and informed decision-making.
 
 ---
 
-## 🧠 Business Context
+## Business Context
 Clinical trials require continuous monitoring to ensure:
 - Efficient patient enrollment  
 - Patient safety through adverse event tracking  
@@ -17,7 +17,7 @@ This project provides a centralized analytics solution across multiple study dim
 
 ---
 
-## 🔄 End-to-End Workflow
+## End-to-End Workflow
 
 1. **Raw Data Collection**
    - Clinical trial dataset provided as a multi-sheet Excel file  
@@ -35,7 +35,7 @@ This project provides a centralized analytics solution across multiple study dim
 
 ---
 
-## 🐍 Data Preparation (Python)
+## Data Preparation (Python)
 
 The raw datasets were cleaned and transformed to ensure accuracy and usability.
 
@@ -50,16 +50,16 @@ These steps ensured reliable downstream analysis and reporting.
 
 ---
 
-## 📁 Data Structure
+## Data Structure
 
 - `/data/raw` → Original dataset  
 - `/data/processed` → Cleaned datasets used for analysis  
 
 ---
 
-## 📊 Dashboards (Power BI)
+## Dashboards (Power BI)
 
-### 🔹 Enrollment Monitoring Dashboard
+### Enrollment Monitoring Dashboard
 - Enrollment rate by site and country  
 - Screen failure rate analysis  
 - Time from screening to randomization  
@@ -67,7 +67,7 @@ These steps ensured reliable downstream analysis and reporting.
 
 ---
 
-### 🔹 Safety Monitoring Dashboard
+### Safety Monitoring Dashboard
 - Adverse events by site and country  
 - Serious vs non-serious events  
 - Distribution of adverse event types  
@@ -75,7 +75,7 @@ These steps ensured reliable downstream analysis and reporting.
 
 ---
 
-### 🔹 Query Resolution Dashboard
+### Query Resolution Dashboard
 - Open, closed, and replied queries  
 - Average query resolution time  
 - Query trends over time  
@@ -83,7 +83,7 @@ These steps ensured reliable downstream analysis and reporting.
 
 ---
 
-## 📈 Key Metrics
+## Key Metrics
 - Enrollment Rate  
 - Screen Failure Rate  
 - Time to Randomization  
@@ -93,7 +93,7 @@ These steps ensured reliable downstream analysis and reporting.
 
 ---
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 ### Enrollment Dashboard
 ![Enrollment Dashboard](images/enrollment-dashboard.png)  
@@ -109,7 +109,7 @@ These steps ensured reliable downstream analysis and reporting.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - Python (Pandas, NumPy)  
 - Power BI  
 - Power Query  
@@ -117,17 +117,17 @@ These steps ensured reliable downstream analysis and reporting.
 
 ---
 
-## ▶️ How to Use
+## How to Use
 1. Explore raw data in `/data/raw`  
 2. Review cleaned datasets in `/data/processed`  
 3. Open the `.pbix` file using Power BI Desktop  
 4. Interact with dashboards using filters and slicers  
 
-👉 Tip: Use filters (site, country, date) to explore trends and drill down into performance metrics.
+Tip: Use filters (site, country, date) to explore trends and drill down into performance metrics.
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 - Identified variability in enrollment performance across sites  
 - Highlighted trends in adverse events and potential safety signals  
 - Revealed delays in query resolution impacting data quality  
@@ -135,7 +135,7 @@ These steps ensured reliable downstream analysis and reporting.
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 - Building an end-to-end data analytics pipeline  
 - Data cleaning and transformation using Python  
 - Designing business-focused dashboards in Power BI  
@@ -143,4 +143,4 @@ These steps ensured reliable downstream analysis and reporting.
 
 ---
 
-## 📁 Project Structure
+## Project Structure

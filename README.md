@@ -196,3 +196,9 @@ clinical-trial-dashboard/
 │ ├── enrollment-dashboard.png
 │ ├── safety-dashboard.png
 │ └── query-dashboard.png
+
+
+---
+
+## Note
+> This project was developed as part of a technical assignment for a clinical data analyst role and has been independently implemented and enhanced for portfolio purposes.

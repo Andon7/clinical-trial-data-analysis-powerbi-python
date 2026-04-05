@@ -28,7 +28,8 @@ This project provides a centralized analytics solution across multiple study dim
    - Feature engineering for key metrics  
 
 3. **Data Export**
-   - Clean datasets exported as structured CSV files  
+   - Clean datasets were initially exported as CSV files from Python. 
+   - For seamless integration with Power BI, they were converted to Excel format (.xlsx) and used in the final dashboard.
 
 4. **Data Visualization (Power BI)**
    - Interactive dashboards built using DAX and data modeling  
@@ -54,6 +55,8 @@ These steps ensured reliable downstream analysis and reporting.
 
 - `/data/raw` → Original dataset  
 - `/data/processed` → Cleaned datasets used for analysis  
+
+Note: Cleaned datasets were generated in CSV format during the Python processing step and later converted to Excel files for compatibility with Power BI.
 
 ---
 
@@ -119,8 +122,8 @@ These steps ensured reliable downstream analysis and reporting.
 
 ## How to Use
 1. Explore raw data in `/data/raw`  
-2. Review cleaned datasets in `/data/processed`  
-3. Open the `.pbix` file using Power BI Desktop  
+2. Review cleaned datasets in `/data/processed` (Excel format used for Power BI)  
+3. Open the `clinical-trial-dashboard.pbix` file using Power BI Desktop  
 4. Interact with dashboards using filters and slicers  
 
 Tip: Use filters (site, country, date) to explore trends and drill down into performance metrics.

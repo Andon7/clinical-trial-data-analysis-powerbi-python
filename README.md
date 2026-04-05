@@ -61,20 +61,22 @@ The raw datasets were cleaned and transformed to ensure accuracy and usability.
 ---
 
 ## Data Structure
+
+```
 data/
 │
 ├── raw/
-│ └── clinical_trial_data.xlsx
+│   └── clinical_trial_data.xlsx
 │
 └── processed/
-├── patients_clean.xlsx
-├── sites_clean.xlsx
-├── adverse_events_clean.xlsx
-└── queries_clean.xlsx
+    ├── patients_clean.xlsx
+    ├── sites_clean.xlsx
+    ├── adverse_events_clean.xlsx
+    └── queries_clean.xlsx
+```
 
-
-- `/data/raw` → Original dataset (multi-sheet Excel file)  
-- `/data/processed` → Cleaned datasets used in Power BI  
+* `/data/raw` → Original dataset (multi-sheet Excel file)
+* `/data/processed` → Cleaned datasets used in Power BI
 
 > Cleaned datasets were first generated as CSV files in Python and later converted to Excel format for seamless integration with Power BI.
 
@@ -173,30 +175,32 @@ Tip: Use filters (site, country, date) to drill down into performance metrics.
 
 ---
 
-## Project Structure
+## 📁 Project Structure
+
+```
 clinical-trial-dashboard/
 │
 ├── README.md
 ├── clinical-trial-dashboard.pbix
 │
 ├── python/
-│ └── data_cleaning.py
+│   └── data_cleaning.py
 │
 ├── data/
-│ ├── raw/
-│ │ └── clinical_trial_data.xlsx
-│ │
-│ └── processed/
-│ ├── patients_clean.xlsx
-│ ├── sites_clean.xlsx
-│ ├── adverse_events_clean.xlsx
-│ └── queries_clean.xlsx
+│   ├── raw/
+│   │   └── clinical_trial_data.xlsx
+│   │
+│   └── processed/
+│       ├── patients_clean.xlsx
+│       ├── sites_clean.xlsx
+│       ├── adverse_events_clean.xlsx
+│       └── queries_clean.xlsx
 │
 ├── images/
-│ ├── enrollment-dashboard.png
-│ ├── safety-dashboard.png
-│ └── query-dashboard.png
-
+│   ├── enrollment-dashboard.png
+│   ├── safety-dashboard.png
+│   └── query-dashboard.png
+```
 
 ---
 

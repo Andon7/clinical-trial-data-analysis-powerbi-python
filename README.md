@@ -204,5 +204,3 @@ clinical-trial-dashboard/
 
 ---
 
-## Note
-> This project was developed as part of a technical assignment for a clinical data analyst role and has been independently implemented and enhanced for portfolio purposes.
